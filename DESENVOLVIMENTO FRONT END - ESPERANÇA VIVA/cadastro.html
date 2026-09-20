@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastre-se para colaborar como voluntário da ONG Esperança Viva.">
+  <title>Esperança Viva | Cadastro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav shell" aria-label="Navegação principal"><a class="brand" href="index.html"><span class="brand-mark">EV</span><span>Esperança<br><em>Viva</em></span></a><div class="nav-links"><a href="index.html">Início</a><a href="projetos.html">Projetos</a><a class="nav-cta" href="cadastro.html" aria-current="page">Seja voluntário <span aria-hidden="true">↗</span></a></div></nav></header>
+  <main>
+    <section class="page-hero form-hero shell"><p class="eyebrow"><span></span> Faça parte</p><h1>Seu tempo pode<br><i>mudar histórias.</i></h1><p>Conte um pouco sobre você e indique como gostaria de contribuir.</p></section>
+    <section class="form-section shell"><form id="volunteer-form" novalidate><div class="form-block"><div class="form-heading"><span>01</span><h2>Dados pessoais</h2></div><div class="field-grid"><label for="nome">Nome completo <sup>*</sup><input id="nome" name="nome" type="text" autocomplete="name" required></label><label for="email">E-mail <sup>*</sup><input id="email" name="email" type="email" autocomplete="email" required></label><label for="cpf">CPF <sup>*</sup><input id="cpf" name="cpf" type="text" inputmode="numeric" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required></label><label for="telefone">Telefone <sup>*</sup><input id="telefone" name="telefone" type="tel" inputmode="numeric" maxlength="15" pattern="\(\d{2}\) \d{4,5}-\d{4}" placeholder="(00) 00000-0000" required></label><label for="nascimento">Data de nascimento <sup>*</sup><input id="nascimento" name="nascimento" type="date" required></label></div></div><div class="form-block"><div class="form-heading"><span>02</span><h2>Onde você está</h2></div><div class="field-grid"><label for="cep">CEP <sup>*</sup><input id="cep" name="cep" type="text" inputmode="numeric" maxlength="9" pattern="\d{5}-\d{3}" placeholder="00000-000" required></label><label for="cidade">Cidade <sup>*</sup><input id="cidade" name="cidade" type="text" required></label><label for="estado">Estado <sup>*</sup><select id="estado" name="estado" required><option value="">Selecione</option><option>São Paulo</option><option>Rio de Janeiro</option><option>Minas Gerais</option><option>Paraná</option></select></label></div></div><div class="form-block"><div class="form-heading"><span>03</span><h2>Seu interesse</h2></div><div class="field-grid"><label for="projeto">Projeto de interesse <sup>*</sup><select id="projeto" name="projeto" required><option value="">Selecione uma iniciativa</option><option>Prato Cheio</option><option>Novos Caminhos</option><option>Rede de Afeto</option></select></label><fieldset><legend>Disponibilidade <sup>*</sup></legend><div class="check-grid"><label><input type="checkbox" name="disponibilidade" value="semana"> Durante a semana</label><label><input type="checkbox" name="disponibilidade" value="fim-semana"> Finais de semana</label><label><input type="checkbox" name="disponibilidade" value="manha"> Manhã</label><label><input type="checkbox" name="disponibilidade" value="tarde"> Tarde</label><label><input type="checkbox" name="disponibilidade" value="noite"> Noite</label></div></fieldset></div></div><div class="form-submit"><button class="button button-coral" type="submit">Enviar cadastro <span aria-hidden="true">↗</span></button><p><sup>*</sup> Campos obrigatórios</p></div><p class="form-message" id="form-message" role="status" aria-live="polite"></p></form></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><p><strong>Esperança Viva</strong><br><span>Solidariedade que transforma.</span></p><p class="footer-meta">© 2026 Esperança Viva<br>Projeto acadêmico fictício.</p></div></footer>
+</body>
+</html>

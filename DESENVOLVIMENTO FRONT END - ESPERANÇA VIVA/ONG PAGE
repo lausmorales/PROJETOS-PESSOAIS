@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a Esperança Viva, uma ONG dedicada a transformar vidas por meio da solidariedade.">
+  <title>Esperança Viva | Início</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Esperança Viva</a>
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="cadastro.html">Seja voluntário</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Juntos, podemos transformar realidades</p>
+      <h1>Pequenas atitudes. Grandes mudanças.</h1>
+      <p>A Esperança Viva é uma organização sem fins lucrativos que conecta pessoas dispostas a ajudar a comunidades que precisam de apoio.</p>
+      <a href="cadastro.html">Faça parte dessa mudança</a>
+    </section>
+
+    <section aria-labelledby="sobre-titulo">
+      <p>Quem somos</p>
+      <h2 id="sobre-titulo">Solidariedade que aproxima</h2>
+      <p>Acreditamos que o cuidado coletivo pode abrir caminhos e fortalecer comunidades.</p>
+
+      <article>
+        <h3>Acolhimento</h3>
+        <p>Escutamos as comunidades e construímos ações a partir de suas necessidades.</p>
+      </article>
+
+      <article>
+        <h3>Transparência</h3>
+        <p>Valorizamos a responsabilidade no uso dos recursos e a prestação de contas.</p>
+      </article>
+
+      <article>
+        <h3>Cooperação</h3>
+        <p>Unimos voluntários, parceiros e moradores para gerar impacto positivo.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Faça a diferença</h2>
+      <p>Seu tempo e suas habilidades podem mudar uma história.</p>
+      <a href="cadastro.html">Quero participar</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Esperança Viva</strong> — solidariedade que transforma.</p>
+    <p>&copy; 2026 Esperança Viva. Projeto acadêmico fictício.</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça as iniciativas solidárias da ONG Esperança Viva.">
+  <title>Esperança Viva | Projetos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Esperança Viva</a>
+      <a href="index.html">Início</a>
+      <a href="projetos.html" aria-current="page">Projetos</a>
+      <a href="cadastro.html">Seja voluntário</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Nossas iniciativas</p>
+      <h1>Solidariedade em ação</h1>
+      <p>Conheça algumas frentes de trabalho da Esperança Viva.</p>
+    </section>
+
+    <section aria-label="Lista de projetos">
+      <article>
+        <h2>Prato Cheio</h2>
+        <p>Segurança alimentar</p>
+        <p>Mobilizamos doações de alimentos e organizamos a distribuição de cestas básicas.</p>
+        <h3>Como ajudar</h3>
+        <p>Contribua com alimentos, apoio logístico ou horas de voluntariado.</p>
+      </article>
+
+      <article>
+        <h2>Novos Caminhos</h2>
+        <p>Educação</p>
+        <p>Promovemos atividades de apoio escolar, leitura e inclusão digital.</p>
+        <h3>Como ajudar</h3>
+        <p>Compartilhe conhecimentos, doe livros ou colabore nas oficinas.</p>
+      </article>
+
+      <article>
+        <h2>Rede de Afeto</h2>
+        <p>Cuidado comunitário</p>
+        <p>Realizamos campanhas de arrecadação e encontros comunitários.</p>
+        <h3>Como ajudar</h3>
+        <p>Ajude na divulgação ou na coleta de itens de higiene.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Quer participar de uma iniciativa?</h2>
+      <p>Preencha o cadastro e conte como gostaria de contribuir.</p>
+      <a href="cadastro.html">Cadastrar-me como voluntário</a>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Esperança Viva</strong> — solidariedade que transforma.</p>
+    <p>&copy; 2026 Esperança Viva. Projeto acadêmico fictício.</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cadastre-se para colaborar como voluntário da ONG Esperança Viva.">
+  <title>Esperança Viva | Cadastro</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Navegação principal">
+      <a href="index.html">Esperança Viva</a>
+      <a href="index.html">Início</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="cadastro.html" aria-current="page">Seja voluntário</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <p>Faça parte</p>
+      <h1>Cadastre-se como voluntário</h1>
+      <p>Conte um pouco sobre você e indique como gostaria de contribuir.</p>
+    </section>
+
+    <section aria-labelledby="dados-pessoais">
+      <form id="volunteer-form">
+        <fieldset>
+          <legend id="dados-pessoais">Dados pessoais</legend>
+
+          <label for="nome">Nome completo *</label>
+          <input id="nome" name="nome" type="text" required>
+
+          <label for="cpf">CPF *</label>
+          <input id="cpf" name="cpf" type="text"
+                 inputmode="numeric"
+                 maxlength="14"
+                 pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                 placeholder="000.000.000-00"
+                 required>
+
+          <label for="nascimento">Data de nascimento *</label>
+          <input id="nascimento" name="nascimento" type="date" required>
+
+          <label for="email">E-mail *</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="telefone">Telefone *</label>
+          <input id="telefone" name="telefone" type="tel"
+                 inputmode="numeric"
+                 maxlength="15"
+                 pattern="\(\d{2}\) \d{4,5}-\d{4}"
+                 placeholder="(00) 00000-0000"
+                 required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Endereço</legend>
+
+          <label for="cep">CEP *</label>
+          <input id="cep" name="cep" type="text"
+                 inputmode="numeric"
+                 maxlength="9"
+                 pattern="\d{5}-\d{3}"
+                 placeholder="00000-000"
+                 required>
+
+          <label for="cidade">Cidade *</label>
+          <input id="cidade" name="cidade" type="text" required>
+
+          <label for="estado">Estado *</label>
+          <select id="estado" name="estado" required>
+            <option value="">Selecione</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PR">Paraná</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interesses e disponibilidade</legend>
+
+          <label for="projeto">Projeto de interesse *</label>
+          <select id="projeto" name="projeto" required>
+            <option value="">Selecione</option>
+            <option value="prato-cheio">Prato Cheio</option>
+            <option value="novos-caminhos">Novos Caminhos</option>
+            <option value="rede-afeto">Rede de Afeto</option>
+          </select>
+
+          <p>Disponibilidade *</p>
+          <label><input type="checkbox" name="disponibilidade" value="semana"> Durante a semana</label>
+          <label><input type="checkbox" name="disponibilidade" value="fim-semana"> Finais de semana</label>
+          <label><input type="checkbox" name="disponibilidade" value="manha"> Manhã</label>
+          <label><input type="checkbox" name="disponibilidade" value="tarde"> Tarde</label>
+          <label><input type="checkbox" name="disponibilidade" value="noite"> Noite</label>
+        </fieldset>
+
+        <button type="submit">Enviar cadastro</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Esperança Viva</strong> — solidariedade que transforma.</p>
+    <p>&copy; 2026 Esperança Viva. Projeto acadêmico fictício.</p>
+  </footer>
+</body>
+</html>
